@@ -1,0 +1,74 @@
+html, body {
+    margin: 0;
+    padding: 0;
+	height: 100%;
+	overflow-x: hidden;
+}
+
+@font-face {
+	font-family: 'CustomFont';
+    src: url('Font2.ttf') format('truetype');
+}
+
+body {
+	background-color: pink;
+}
+
+p {
+	 font-family: 'CustomFont', sans-serif;
+	 	color: white;
+		text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		font-size: 40px;
+		word-spacing: -0.2em;
+		text-align: center;
+		 margin-top: 150px; 
+}
+
+
+#snow {
+     position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none; /* lets clicks pass through */
+    z-index: 9999;        /* always on top */
+  }
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: clamp(50px, 10vw, 150px); /* min 50px, scales with viewport, max 150px */
+    position: relative;
+    top: -20px;         /* slight overlap of image */
+    margin: 0 auto;
+    margin-bottom: 40px; /* space for paragraph */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-family: 'CustomFont', sans-serif;
+    word-spacing: -0.2em;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-size: 70px;
+	padding-top: 0px;
+	margin-top: -00px;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+	font-family: 'CustomFont', sans-serif;
+	word-spacing: -0.2em;
+}
+
+.top img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	 mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+	 padding-bottom: 0px;
+	 margin-bottom: 0px;
+}
+
+.top {
+		height: 80vh;
+		padding: 0px;
+		margin: 0px;
+		 position: relative;
+}
