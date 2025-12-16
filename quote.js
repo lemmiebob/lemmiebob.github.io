@@ -1,7 +1,13 @@
 const quotes = [
-"Hey",
-"Arfa",
-"test",
+"You have the cutest nose",
+"Your rosy cheeks are the cutest",
+"You are the prettiest princess",
+"Im so happy you are a part of my life",
+"MWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAH",
+"MWAH. That was for your nose",
+"MWAH. That was for your forehead",
+"MWAH. That was for your tummy",
+"MWAH. That was for your cheeks",
 ];
 
 function getRandomDailyQuote() {
@@ -19,6 +25,6 @@ function getRandomDailyQuote() {
 	const seed = dayOfYear;
     const randomIndex = Math.floor((Math.sin(seed) * 10000) % (quotes.length - 1));
 	
-	return randomIndex;
+	// return randomIndex;
 	return quotes[Math.abs(randomIndex)];
 }

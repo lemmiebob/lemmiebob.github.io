@@ -21,6 +21,10 @@ p {
 		font-size: 40px;
 		word-spacing: -0.2em;
 		text-align: center;
+	
+}
+
+.desc p {
 		 margin-top: 150px; 
 }
 
@@ -52,6 +56,8 @@ h2 {
 	font-size: 70px;
 	padding-top: 0px;
 	margin-top: -00px;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
 	text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
 	font-family: 'CustomFont', sans-serif;
 	word-spacing: -0.2em;
@@ -64,6 +70,11 @@ h2 {
 	 mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
 	 padding-bottom: 0px;
 	 margin-bottom: 0px;
+}
+
+.centered-gif {
+	 display: flex;
+	justify-content: center;
 }
 
 .top {
