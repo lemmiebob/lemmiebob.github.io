@@ -8,6 +8,17 @@ const quotes = [
 "MWAH. That was for your forehead",
 "MWAH. That was for your tummy",
 "MWAH. That was for your cheeks",
+"I love you so much arfa",
+"Your hair is so pretty when its up and when its down, when its wet and when its dry",
+"Just telepathically sucked your toes",
+"OMNOMNOMNOMNOMNOMNOMNOM. That was for your cute toes",
+"You are my sweet baby",
+"Thinking about you rn my baby",
+"I cant wait to see you again",
+"Telepathically just bent you over and spanked you",
+"Lets cuddle under the blankets together baby",
+"I want to be in the spa mwahing again",
+"Privy, rhythm, audio, canoe :P",
 ];
 
 function getRandomDailyQuote() {
