@@ -1,8 +1,8 @@
 const quotes = [
 "You have the cutest nose",
 "Your rosy cheeks are the cutest",
-"You are the prettiest princess",
 "Im so happy you are a part of my life",
+"You are the prettiest princess",
 "MWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAHMWAH",
 "MWAH. That was for your nose",
 "MWAH. That was for your forehead",
